@@ -1,0 +1,11 @@
+diff -up naga/build.xml.orig naga/build.xml
+--- naga/build.xml.orig	2013-03-25 17:50:02.000000000 +0200
++++ naga/build.xml	2013-03-25 17:57:33.205315047 +0200
+@@ -33,6 +33,7 @@
+ 		           author="true"
+ 		           version="true"
+ 		           use="true"
++			   encoding="UTF8"
+ 		           windowtitle="Naga API">
+ 			  <doctitle><![CDATA[<h1>Naga</h1>]]></doctitle>
+ 			  <tag name="todo" scope="all" description="To do:"/>
