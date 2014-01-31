@@ -1,8 +1,9 @@
+%{?_javapackages_macros:%_javapackages_macros}
 %global svnrel 82
 
 Name:           naga
 Version:        3.0
-Release:        3.%{svnrel}svn%{?dist}
+Release:        3.%{svnrel}svn.0%{?dist}
 Summary:        Simplified Java NIO asynchronous sockets
 
 
@@ -76,3 +77,14 @@ cp -rp _BUILD/docs/api/* %{buildroot}%{_javadocdir}/%{name}
 
 %files javadoc
 %{_javadocdir}/%{name}
+
+
+%changelog
+* Tue Oct 22 2013 Susi Lehtola <jussilehtola@fedoraproject.org> - 3.0-3.82svn
+- Real .jar file is shipped unversioned (BZ #1022145).
+
+* Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 3.0-2.82svn
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
+
+* Mon Mar 25 2013 Susi Lehtola <jussilehtola@fedoraproject.org> - 3.0-1.82svn
+- First release.
