@@ -8,7 +8,7 @@ Summary:        Simplified Java NIO asynchronous sockets
 
 
 License:        MIT
-URL:            http://code.google.com/p/naga/
+URL:            https://code.google.com/p/naga/
 # Upstream does not release stable source tarballs.
 # Tarball created with
 # svn checkout -r %{svnrel} http://naga.googlecode.com/svn/trunk/ naga
